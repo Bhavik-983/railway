@@ -27,4 +27,8 @@ export default {
   },
 
   API_KEY: process.env.API_KEY,
+  ACCESS_TOKEN: process.env.ACCESS_TOKEN,
+  ACCESS_TOKEN_EXP: process.env.ACCESS_TOKEN_EXP,
+  REFRESH_TOKEN: process.env.REFRESH_TOKEN,
+  REFRESH_TOKEN_EXP: process.env.REFRESH_TOKEN_EXP
 };
