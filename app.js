@@ -27,9 +27,7 @@ app.use(cors());
 app.use(helmet());
 app.use(express.static(path.join(__dirname, "public")));
 app.use("/", routes);
-app.use("/demo",() => {
-  console.log("yhyhyhyhhyhyhyhyhyh");
-})
+
 app.use(
   morgan("combined", {
     stream: logger.stream,
