@@ -12,6 +12,7 @@ import routes from "./routes/index.js";
 import rateLimiter from "./middleware/rateLimiter.js";
 
 import "./database/index.js";
+console.log("hyyyyy");
 
 const app = express();
 
